@@ -27,6 +27,9 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.icon-md {
+    color: #000000;
+} 
 .bloc {
     width: 100%;
     clear: both;
@@ -90,13 +93,17 @@ a:hover {
     right: 0;
 }
 
-.col-sm-12 {
-    font-size: 18px;
+footer p {
+    font-size: 16px;
     font-style: italic;
     font-weight: 600;
 
 }
 
+.row-social {
+    display: flex;
+    justify-content: space-between;
+}
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -131,7 +138,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -741,8 +747,17 @@ h4 {
     margin-top: 24px;
 }
 
+.agence-avis {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.agence-avis-client {
+    font-weight: bold;
+}
+
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
