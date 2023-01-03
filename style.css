@@ -551,7 +551,12 @@ button {
     float:left;
     padding-left: 35px;
     padding-right: 35px;
-    width: 100%;
+}
+
+@media screen (min-width: 716px) {
+    .col-sm-6{
+        width: 50%;
+    }
 }
 
 .scrollToTop {
