@@ -534,6 +534,12 @@ button {
     margin-bottom: 20px;
 }
 
+.col-sm-6 {
+    float:left;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
