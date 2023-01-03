@@ -245,7 +245,6 @@ footer h3 {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -462,7 +461,12 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
+.row-white {
+    color: white!important
+}
+
 
 .mg-lg {
     margin-top: 10px;
@@ -547,6 +551,7 @@ button {
     float:left;
     padding-left: 35px;
     padding-right: 35px;
+    width: 100%;
 }
 
 .scrollToTop {
@@ -695,8 +700,16 @@ a {
 
 label {
     margin-bottom: 10px;
-    display: inline-block;
+    display: block;
+    font-weight: bold;
 }
+
+#form-Choice {
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 40px;
+}
+
 
 .container {
     max-width: 1000px;
@@ -779,10 +792,12 @@ h4 {
 .agence-avis {
     font-size: 18px;
     font-style: italic;
+    font-family: Georgia;
 }
 
 .agence-avis-client {
     font-weight: bold;
+    color: #00acec!important;
 }
 
 .white {
@@ -817,7 +832,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #38477a;
 }
 
 .bgc-atomic-tangerine {
@@ -825,12 +840,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+}
+
+#bloc-5-ct h2 {
+    color: white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #003B4A!important;
+    inline-size: fit-content;
 }
 
 .btn-atomic-tangerine:hover {
@@ -868,7 +888,9 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.jpg"),
+   linear-gradient(rgba(194, 121, 86, 0.2), rgb(70 43 30));
+
 }
 
 .bg-presentation {
