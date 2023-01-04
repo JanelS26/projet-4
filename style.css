@@ -47,9 +47,6 @@ a:hover {
     padding-right: 0;
 }
 
-.bloc-lg {
-    padding: 100px 50px;
-}
 
 .bloc-md {
     padding: 50px;
@@ -95,10 +92,21 @@ a:hover {
 
 footer h3 {
     font-size: 16px;
-    font-style: italic;
     font-weight: 600;
 
 }
+
+footer h4 {
+    color: #0B1114!important;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.title-contact {
+    padding-left:40px
+}
+
 
 
 
@@ -298,6 +306,10 @@ footer h3 {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+}
+
+.row-social, .title-index {
+    color: #0B1114!important;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -554,8 +566,8 @@ button {
 }
 
 .col-sm-12 h2 {
-    color: white!important;
-    font-size: 35px;
+    color: #BEEAFE!important;
+    font-size: 25px;
 }
 
 
@@ -752,8 +764,9 @@ label {
 
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto auto auto auto;
+    padding: 25px;
 }
 
 .h1 {
@@ -817,7 +830,8 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: #0B1114!important;
+    font-size: 1.5rem;
 }
 
 .portfolio-thumb {
@@ -833,9 +847,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    padding: 40px 40px 40px 40px;
-}
+
 
 .bold-link {
     font-weight: 900;
@@ -915,7 +927,8 @@ h4 {
 }
 
 .title-index {
-    font-size: 20px!important;
+    font-size: 1.5rem!important;
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {
@@ -1072,7 +1085,7 @@ h4 {
     }
     .bloc-xxl,
     .bloc-xl,
-    .bloc-lg {
+     {
         padding: 40px 0;
     }
     .bloc-sm,
@@ -1088,6 +1101,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+   
+
     .a-block {
         padding: 0 10px;
     }
@@ -1126,14 +1142,20 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-
+.portfolio-row {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
     .col-sm-12 h2 {
         font-size: 2rem;
+        color: #BEEAFE!important;
         text-shadow: 0 0 10px black;
     }
 
     .black-background {
-        padding: 20px;
+        padding: 10px;
+        margin: 0;
     }
 
 }
