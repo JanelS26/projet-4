@@ -553,6 +553,17 @@ button {
     padding-right: 35px;
 }
 
+.col-sm-12 h2 {
+    color: white!important;
+    font-size: 35px;
+}
+
+
+.col-sm-12 p {
+    color: white!important;
+}
+
+
 @media screen (min-width: 716px) {
     .col-sm-6{
         width: 50%;
@@ -823,7 +834,6 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -899,7 +909,13 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image:
+    linear-gradient(rgb(0 0 0 / 50%), rgb(70, 43, 30, 0.9)), 
+    url(img/image-de-presentation.bmp);
+}
+
+.title-index {
+    font-size: 20px!important;
 }
 
 @media (max-width: 1024px) {
@@ -979,8 +995,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1110,6 +1126,16 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .col-sm-12 h2 {
+        font-size: 2rem;
+        text-shadow: 0 0 10px black;
+    }
+
+    .black-background {
+        padding: 20px;
+    }
+
 }
 
 @media (max-width: 767px) {
