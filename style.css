@@ -103,10 +103,13 @@ footer h4 {
 
 }
 
-.title-contact {
-    padding-left: 35px;
-    font-size: 3rem!important;
+@media (max-width: 767px) {
 
+.title-contact {
+    font-size: 3rem!important;
+    padding-left: 3px!important;
+
+}
 }
 
 
