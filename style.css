@@ -935,7 +935,7 @@ h4 {
 .bg-presentation {
     background-image:
     linear-gradient(rgb(0 0 0 / 50%), rgb(70, 43, 30, 0.9)), 
-    url(img/image-de-presentation.bmp);
+    url(img/image-de-presentation.jpg);
 }
 
 .title-index {
