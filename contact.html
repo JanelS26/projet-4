@@ -95,46 +95,59 @@
 				<h2 class="title-contact "> 
 					Contactez-nous
 				</h2>
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
+
 					<div class="form-group">
 						<legend>
 							Comment pouvons-nous vous aider ?
-
 						</legend>
+
 						<label>
 							Nom
 						</label>
-						<input id="lastname" placeholder="DURAND" class="form-control" required />
+						<input id="lastname" placeholder="DURAND" 
+						class="form-control" required />
 					</div>
+
 					<div class="form-group">
 						<label>
 							Prénom
 						</label>
-						<input id="name" placeholder="Jean" class="form-control" required />
+						<input id="name" placeholder="Jean" 
+						class="form-control" required />
 					</div>
+
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" placeholder="jeandurand@mail.com" class="form-control" type="email" required />
+						<input id="email" placeholder="jeandurand@mail.com" 
+						class="form-control" 
+						type="email" required />
 					</div>
+
 					<div class="form-group">
 					
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
 						<div class="form-choice">
-						<input type="radio" id="contactChoice" name="contact" value="socialmedia" />
-						<label for="contactChoice" id="form-Choice">Réseaux Sociaux</label>
+						<input type="radio" id="contactChoice" name="contact" 
+						value="socialmedia" required />
+						<label for="contactChoice"
+						 id="form-Choice">Réseaux Sociaux</label>
 						</div>
 
 						<div class="form-choice">
-						<input type="radio" id="contactChoice" name="contact" value="phone" />
-						<label for="contactChoice" id="form-Choice">Moteur de recherche</label>
+						<input type="radio" id="contactChoice" 
+						name="contact" value="phone" required />
+						<label for="contactChoice" 
+						id="form-Choice">Moteur de recherche</label>
 						</div>
 
 						<div class="form-choice">
-						<input type="radio" id="contactChoice" name="contact" value="mail" />
+						<input type="radio" id="contactChoice" 
+						name="contact" value="mail" required />
 						<label for="contactChoice" id="form-Choice">Radio</label>
 										
 					</div>
@@ -143,9 +156,13 @@
 					
 							Prenez, dès maintenant contact avec l'un de nos conseiller et donner vie à vos projets !
 
-						</label><textarea id="message" class="form-control"
-						placeholder="Je voudrais améliorer le référencement naturel de mon site web, avec une refonte et webdesign..." rows="4" cols="50" required></textarea>
+						</label>
+						
+						<textarea id="message" class="form-control"
+						placeholder="Je voudrais améliorer le référencement naturel de mon site web, avec une refonte et webdesign..." rows="4" cols="50" 
+						required></textarea>
 					</div> 
+
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
@@ -155,6 +172,10 @@
 		</div>
 	</div>
 </div>
+
+
+
+
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
