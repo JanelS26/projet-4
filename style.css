@@ -927,7 +927,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg"),
+    background-image: url("img/agence-la-panthere.webp"),
    linear-gradient(rgba(194, 121, 86, 0.2), rgb(70 43 30));
 
 }
