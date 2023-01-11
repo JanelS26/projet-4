@@ -590,6 +590,13 @@ button {
     color: white!important;
 }
 
+.col-sm-12-1 h1 {
+    color: black!important;
+}
+
+.col-sm-12-1 p {
+    color: black!important;
+}
 
 @media screen (min-width: 716px) {
     .col-sm-6{
