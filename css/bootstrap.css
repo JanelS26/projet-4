@@ -5686,9 +5686,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     content: "/\00a0"
 }
 
-.breadcrumb>.active {
-    color: #777
-}
+
 
 .pagination {
     display: inline-block;
