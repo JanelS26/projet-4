@@ -8,7 +8,7 @@ body {
 }
 
 body p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a,
@@ -609,7 +609,7 @@ button {
 }
 
 @media screen (min-width: 716px) {
-    .col-sm-6{
+    .col-sm-6 {
         width: 50%;
     }
 }
@@ -743,7 +743,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+h1 {
+    font-size: 18px;
+}
+
 h2,
 h3,
 h4,
@@ -756,6 +759,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    font-size: 16px;
 }
 
 label {
@@ -826,7 +830,6 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
     font-weight: 700;
     color: #333333!important;
 }
@@ -952,7 +955,7 @@ h4 {
 }
 
 .title-index {
-    font-size: 1.5rem!important;
+    font-size: 2rem!important;
     font-weight: bold;
 }
 
