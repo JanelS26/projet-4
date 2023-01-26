@@ -37,6 +37,10 @@ a:hover {
     width: 100%;
     } }
 
+.img-responsive {
+    margin-bottom: 20px!important;
+}    
+
 .icon-md {
     color: #000000;
 } 
@@ -1025,8 +1029,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
 }
 
